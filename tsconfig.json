@@ -1,0 +1,45 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "references": [
+    {
+      "path": "./playgrounds/vue-ts/tsconfig.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "vitest/importMeta",
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "env.d.ts",
+    "auto-imports.d.ts",
+    "packages",
+    "packages/**/*.vue"
+  ],
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/client/**",
+    "**/playgrounds/**",
+    "**/examples/**",
+    "**/interactive/**",
+    "./playgrounds/**",
+    "./playgrounds/**/*",
+    "./playgrounds/**/*.vue",
+    "**/test/dts/**"
+  ],
+  "vueCompilerOptions": {
+    "target": "auto",
+    "lib": "vue"
+  }
+}

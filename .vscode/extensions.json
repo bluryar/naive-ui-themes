@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "amodio.tsl-problem-matcher",
+    "editorconfig.editorconfig",
+    "naumovs.color-highlight",
+    "wmaurer.change-case",
+    "zixuanchen.vitest-explorer",
+    "johnsoncodehk.vscode-tsconfig-helper",
+    "yoavbls.pretty-ts-errors",
+    "esbenp.prettier-vscode",
+    "redjue.git-commit-plugin"
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur"
+  ]
+}

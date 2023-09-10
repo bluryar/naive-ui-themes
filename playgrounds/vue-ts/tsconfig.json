@@ -1,0 +1,27 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "moduleResolution": "node",
+    "types": [
+      "naive-ui/volar",
+      "vite/client",
+      "node"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "./*.ts",
+    "./src",
+    "./src/**/*.vue",
+    "./src/**/*.json"
+  ],
+  "vueCompilerOptions": {
+    "target": 3.3
+  }
+}
